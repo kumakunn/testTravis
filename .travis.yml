@@ -1,0 +1,19 @@
+# 运行环境，Travis 会自动提供这个环境
+language: node_js
+node_js: 
+  - “13“
+  - “12”
+
+# S: Build Lifecycle
+# 安装依赖包
+install:
+  - npm install
+
+# 生成博客静态资源
+script:
+  - echo "script"
+
+branches:
+  only:
+    # 设置监控分支，当 develop 分支代码变化时，执行这个程序
+    - dev
