@@ -5,7 +5,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 
 ## Quick Start
 
-### Create a new pos111
+### Create a new branch
 
 ``` bash
 $ hexo new "My New Post"
