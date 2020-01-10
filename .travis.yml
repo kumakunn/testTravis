@@ -14,6 +14,5 @@ script:
   - echo "script"
 
 branches:
-  only:
-    # 设置监控分支，当 develop 分支代码变化时，执行这个程序
-    - master
+  except:
+    - dev
