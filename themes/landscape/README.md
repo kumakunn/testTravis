@@ -4,9 +4,9 @@ A brand new default theme for [Hexo].
 
 - [Preview](http://hexo.io/hexo-theme-landscape/)
 
-## Installation
+## I
 
-### Install
+### In22331
 
 ``` bash
 $ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
