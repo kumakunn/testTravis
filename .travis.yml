@@ -13,8 +13,3 @@ install:
 script:
   - echo "script"
 
-branches:
-  only:
-   - master
-  except:
-   - dev
