@@ -4,9 +4,9 @@ node_js:
   - "13"
 #  - "12"
   
-env:
-  - TEST_SUITE=units
-  - TEST_SUITE=integration
+#env:
+#  - TEST_SUITE=units
+#  - TEST_SUITE=integration
 
 # S: Build Lifecycle
 # 安装依赖包
@@ -14,8 +14,8 @@ install:
   - npm install
 
 # 生成博客静态资源
-script: "bundle exec rake test:$TEST_SUITE"
-  #- echo "script"
+script: #"bundle exec rake test:$TEST_SUITE"
+  - echo "script"
 
 branches:
   only:
