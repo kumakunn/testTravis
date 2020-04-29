@@ -2,7 +2,8 @@
 language: node_js
 node_js: 
   - "13"
-#  - "12"
+  - "12"
+  - "11"
   
 #env:
 #  - TEST_SUITE=units
