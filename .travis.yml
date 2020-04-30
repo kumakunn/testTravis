@@ -17,10 +17,14 @@ node_js:
 install:
   - npm install
 
+before_script:
+  - npm install -g gulp-cli
+  
 # 生成博客静态资源
 script: #"bundle exec rake test:$TEST_SUITE"
   - npm test
   - echo "script"
+  - gulp
 
 branches:
   only:
