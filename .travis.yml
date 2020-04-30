@@ -19,6 +19,7 @@ install:
 
 # 生成博客静态资源
 script: #"bundle exec rake test:$TEST_SUITE"
+  - npm test
   - echo "script"
 
 branches:
