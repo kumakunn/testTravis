@@ -3,7 +3,7 @@ language: node_js
 node_js: 
   - "13"
   - "12"
-  - "11"
+#  - "11"
 #  - "10"
 #  - "9"
 #  - "8"
@@ -24,7 +24,6 @@ before_script:
 script: #"bundle exec rake test:$TEST_SUITE"
   - npm test
   - echo "script"
-  - gulp
 
 branches:
   only:
