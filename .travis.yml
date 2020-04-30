@@ -16,9 +16,8 @@ node_js:
 # 安装依赖包
 install:
   - npm install
+  - npm install mocha --save-dev
 
-before_script:
-  - npm install -g gulp-cli
   
 # 生成博客静态资源
 script: #"bundle exec rake test:$TEST_SUITE"
